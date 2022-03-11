@@ -1,8 +1,8 @@
 const iconoSol = document.getElementById("iconoSol");
-const modClaro = document.querySelector(".modo-claro");
+const modoClaro = document.querySelector(".modo-claro");
 
 iconoSol.addEventListener("click", () => {
-  modo - claro.classList.toggle("modoOscuro");
+  modoClaro.classList.toggle("modoOscuro");
 });
 
 const soloTextos = document.querySelector(".solo-textos--oculto");
